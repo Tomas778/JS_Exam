@@ -8,3 +8,25 @@ pamatyti jo pateikto svorio kovertavimą į:
 Pastaba: rezultatas turi būti matomas pateikus formą ir atvaizduojamas
 <div id="output"></div> viduje. Gautus atsakymus stilizuokite naudojant CSS;
 ------------------------------------------------------------------- */
+
+//Tomas Stirblys
+//Result with CSS properties
+const output = document.querySelector("#output");
+output.style.paddingLeft = '10vh'; 
+output.style.color = '#505050';
+
+//Function for calculation
+document.querySelector("#submit-btn").onclick = (event) => {
+
+    const inputvalue = document.querySelector("#search");
+    
+    const pounds = inputvalue.value * 2.2046;
+    const grams = inputvalue.value  / 0.001;
+    const ounce = inputvalue.value  * 35.274;
+
+    output.innerText = 'Results:' + '\n' 
+    + 'Pounds: ' + pounds + ' lb' + '\n' 
+    + 'Grams: ' + grams + ' g' + '\n' 
+    + 'Ounce: ' + ounce + ' oz';
+    event.preventDefault();
+};
