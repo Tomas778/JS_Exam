@@ -19,3 +19,24 @@ const users = [
   { id: '8', name: 'Simon Peterson', age: 30 },
   { id: '9', name: 'Daniel Cane', age: 51 },
 ];
+
+
+function getUserAverageAge(users) {   // Funkcija amziaus vidurkiui
+  return users.reduce((accumulator, object) => {
+    return accumulator + object.age / users.length;
+  }, 0);
+}
+
+console.log(getUserAverageAge (users)); // Amžiaus vidurkis
+
+function getUsersNames(users) {  // Funkcija array kopija, bet tik su vardais
+  const result = users.map(a => ({...a})); // array klonas
+  result.forEach(object => {
+    delete object['id'];
+    delete object['age'];
+  });
+  return result;
+}
+
+console.log(users);  //Original Object
+console.log(getUsersNames(users)); // Only user names
