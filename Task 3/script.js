@@ -10,7 +10,7 @@ Paspaudus mygtuką "Show users":
 Pastaba: Sukurta kortelė, kurioje yra pateikiama vartotojo informacija, turi 
 būti stilizuota su CSS ir būti responsive;
 -------------------------------------------------------------------------- */
-
+//new pull req
 const ENDPOINT = 'https://api.github.com/users';
 
 document.querySelector("#btn").onclick = showUsers;

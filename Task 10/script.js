@@ -1,7 +1,7 @@
 /* ------------------------------ TASK 10 ---------------------------------------------------
 Sutvarkykite užduoties "Task 10" esančius failus taip, kad veiktų žemiau pateiktos funkcijos.
 -------------------------------------------------------------------------------------------- */
-
+//new pull req
 import {one}  from './modules/numbers/numbers.js';
 import {two}  from './modules/numbers/numbers.js';
 import {three}  from './modules/numbers/numbers.js';

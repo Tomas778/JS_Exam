@@ -7,7 +7,7 @@ atveju grąžins visų "users" amžiaus vidurkį kaip skaičių.
 2. funkcija "getUsersNames" -  kaip argumentą priims masyvą ir duoto masyvo 
 atveju grąžins visų "users" vardus naujame masyve pvz., ['John Smith', 'Ann Smith'..].
 -------------------------------------------------------------------------- */
-
+//new pull req
 const users = [
   { id: '1', name: 'John Smith', age: 20 },
   { id: '2', name: 'Ann Smith', age: 24 },
