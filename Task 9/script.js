@@ -9,7 +9,7 @@ budget: number
 Metodas: 
 wasExpensive() - jeigu filmo "budget" yra daugiau nei 100 000 000 mln USD, tada grąžins true, kitu atveju false. 
 ------------------------------------------------------------------------------------------------------ */
-
+//new pull req
 //Constructor
 function Movie (title, director, budget) {
     this.title = title;
